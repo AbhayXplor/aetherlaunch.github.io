@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AetherLaunch</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    img.logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    form {
+      margin-bottom: 30px;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      max-width: 80%;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #38bdf8;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .preview {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      background-color: #1a1a1a;
+      border: 2px dashed #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="logo.png" alt="AetherLaunch Logo" class="logo" />
+
+  <!-- Title & Hook -->
+  <h1>AetherLaunch</h1>
+  <p class="description">
+    AI-powered startup builder. Turn ideas into reality — no team, no budget needed.
+  </p>
+
+  <!-- Short Description -->
+  <p class="description">
+    AetherLaunch helps solo founders go from startup idea to brand, pitch, and MVP using cutting-edge AI. 
+    No code, no hassle — just build.
+  </p>
+
+  <!-- Waitlist Form -->
+  <form action="https://formspree.io/f/xnnpyvaz" method="POST">
+    <input type="email" name="email" placeholder="Your email" required />
+    <button type="submit">Join the Waitlist</button>
+  </form>
+
+  <!-- Preview Section -->
+  <div class="preview">
+    Product Preview or Demo Coming Soon
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Built with 💡 by a solo founder. Launching soon.
+  </footer>
+
+</body>
+</html>
